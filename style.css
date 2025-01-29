@@ -58,6 +58,9 @@
     padding:  10px 15px;
     border-radius: 15px;
   }
+  nav .harm-times{
+    display: none;
+  }
   header h1{
     color: var(--White);
     text-align: center;
@@ -404,7 +407,13 @@ color: var(--Very-dark-desaturated-blue);
     width: 100%;
     text-align: center;
   }
-  .end{
-    
+  nav .harm-times{
+    display: block;
+  }
+  nav ul{
+    display: none;
+  }
+  .times{
+    display: none;
   }
  }
